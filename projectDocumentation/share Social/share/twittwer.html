@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.5.1.js">
+
+</script>
+	
+</head>
+
+<body>
+
+<script type="text/javascript">
+ $(document).ready(function () {
+ $('#btnTweet').click(function (e) {
+
+ var textToTweet = "Hi I am tweeting from here<b>hjujhg<kk</b>";
+ if (textToTweet.length > 140) {
+ alert('Tweet should be less than 140 Chars');
+ }
+ else {
+ var twtLink = 'http://twitter.com/home?status=' +encodeURIComponent(textToTweet);
+ window.open(twtLink,'popup','width=600,height=600');
+ }
+ });
+ });
+ 
+</script>
+<!-- Tweet-->
+
+
+
+<button id="btnTweet" >Tweet</button>
+
+
+<!-- <a href="https://twitter.com/share"    target="popup"  class="" 
+  onclick="window.open('http://twitter.com/home?status= TEXT ' 'popup','width=600,height=600'); return false;">
+  Tweet
+</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+ -->
+
+
+</body> 
+</html>

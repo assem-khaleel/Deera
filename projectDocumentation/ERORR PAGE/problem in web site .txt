@@ -1,0 +1,72 @@
+- cart in header : 
+duplicate the order  
+delete order notwork 
+
+
+- login popup : 
+1- create account not work 
+2- forget password 
+
+-singup page : 
+- birthdate  datepicker 
+- agree massge required 
+
+
+- logout  : crash page 
+
+
+- MY PROFILE  :
+- MUST BE LOGIN TO SHOW IT 
+-CRASH PAGE 
+
+
+-SHOP MENU ITEM  :
+- SIZE WITH OUT PRICE 
+- SHOW ALL MENUE SECTION 
+
+-MEDIA PAGE :EMPTY 
+
+My Profile page :
+- must be login to show it 
+- Date of Birth not work datepicker 
+-delevary address (add button desgin bug ) 
+-update button not work 
+
+
+
+
+-check out page : 
+1-when press place order they whell add on the cart one item  
+2- must be tow option user (login or Continue As Guest)
+
+
+
+
+-my order page : 
+Current order
+- summary : replace the funtion button Reorder button 
+- Receipte: show image (Receipt)
+- date of order 
+- Time 
+
+
+
+
+-Gift card User :  Empty 
+- offer page    : empty
+
+
+
+-FAQS Page : how to create an account  not work 
+
+
+
+
+- blog page : repleace between date and bloger name
+-cofe-blog-article page :not found 
+
+
+-contact us page : 
+ - after fill the form and click create there is a crash page  
+
+-User profile  : not work (carsh page )

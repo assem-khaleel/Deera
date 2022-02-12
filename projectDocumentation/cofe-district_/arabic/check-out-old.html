@@ -1,0 +1,794 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COFE DISTRICT</title>
+
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="css/font-awesome.css" type="text/css">
+<link rel="stylesheet" href="css/main-style.css" type="text/css">
+<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+<link rel="stylesheet" href="css/bootstrap-theme.css" type="text/css">
+<link rel="stylesheet" href="css/Selectyze.jquery.css" />
+<!--slider css-->
+<link rel="stylesheet" href="css/responsiveslides.css">
+<link rel="stylesheet" href="css/themes.css">
+<!--slider css-->
+<link rel="stylesheet" href="css/reveal.css">
+<link href="css/bootstrap-datetimepicker.css" rel="stylesheet" media="screen">
+
+
+</head>
+
+<body>
+
+<section class="main-wrapper">
+<article class="container">
+
+	<div class="wrapper">
+
+	<header>
+	<div class="row">
+		<aside class="col-md-3 col-sm-4">
+			<div class="logo"><a href="index.html"><img src="images/logo.png" alt=""> </a></div>
+		</aside>
+		<aside class="col-md-9 col-sm-8">
+			<div class="right-top">
+			<a href="#" class="cart"></a>
+			<ul>
+				<li><a href="#" data-reveal-id="myModal_login" data-animation="fade">LOGIN</a></li>
+				<li><a href="#" class="ar-languge">English</a></li>
+			</ul>
+			</div>
+		</aside>
+	</div>
+	</header>
+
+
+	<!--inner area-->
+	<section class="inner-wrapper">
+
+	<div class="caption-sec bottomlow">
+	<h1>Check Out</h1>
+	</div>
+
+	<div class="check_wrapper">
+
+		<div class="row">
+			<aside class="col-md-6">
+			<div class="logwrapp">
+				<div class="sign_in">
+					<h3>Login</h3>
+
+
+					  <div class="log_fill"><input class="text_log" placeholder="Email Address" type="text"></div>
+					  <div class="log_fill"><input class="text_log" placeholder="Password" type="password"></div>
+					  <div class="log_fill">
+					  <aside class="rmr">
+								<div class="custom-checkbox">
+								<input id="cb10" type="checkbox">
+								<label for="cb10">Remember Me</label>
+								</div>
+
+
+					  </aside>
+					  <aside class="frgt"><a href="#">Forgot Password</a></aside>
+					  </div>
+					  <h5>Don't Have An Account?&nbsp;<a href="signup.html">Create An Account</a> </h5>
+			</div>
+			</div>
+			<input class="log_btn" value="Login" type="submit">
+			</aside>
+
+			<aside class="col-md-6">
+			<div class="logwrapp gustsec">
+			<div class="sign_in">
+					<h3>Continue As Guest</h3>
+
+
+					  <div class="log_fill"><input class="text_log" placeholder="First Name" type="text"></div>
+					  <div class="log_fill"><input class="text_log" placeholder="Last Name" type="text"></div>
+					  <div class="log_fill"><input class="text_log" placeholder="Phone" type="text"></div>
+					  <div class="log_fill"><input class="text_log" placeholder="Email Address" type="text"></div>
+
+
+			</div>
+
+			</div>
+			</aside>
+
+		</div>
+
+
+		<div class="row">
+			<div class="col-md-12">
+				<div class="logwrapp">
+				<div class="sign_in">
+					<h3>Order Summary</h3>
+
+					<div class="summaryy">
+						<h4>Con Helado</h4>
+						<h4>14 OZ<span>2.250 KD</span></h4>
+						<hr/>
+						<h4>Sub Total	<span>2.250 KD</span></h4>
+						<h4>Delivery Fees	<span>0.500 KD</span></h4>
+						<h4>Total	<span>2.750 KD</span></h4>
+					</div>
+
+
+
+			</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="row">
+			<div class="col-md-12">
+				<div class="logwrapp">
+				<div class="sign_in">
+					<h3>Delivery Address
+
+                    <a href="#" data-reveal-id="add-addresss" data-animation="fade" class="add_location">&nbsp;</a></h3>
+					<textarea class="addresss"></textarea>
+
+
+
+
+
+				</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col-md-12">
+				<div class="logwrapp">
+				<div class="sign_in">
+					<h3>Delivery Time</h3>
+
+					<div class="dlivry_selct">
+
+					<div class="custom-radio">
+					<input id="rb1" name="deliverytime" type="radio">
+					<label for="rb1">Order Now</label>
+					</div>
+
+					<div class="custom-radio">
+					<input id="rb2" name="deliverytime" type="radio">
+					<label for="rb2"><a href="#" data-reveal-id="shedule-time" data-animation="fade">Schedule Delivery</a></label>
+					</div>
+
+					</div>
+
+
+				</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="row">
+			<div class="col-md-12">
+				<div class="logwrapp">
+				<div class="sign_in">
+					<h3>Payment Method</h3>
+
+					<div class="payy">
+					<div class="code"><input type="text" placeholder="Add Voucher Code"> <!--<img src="images/confirm.png" alt="">--> </div>
+
+					<div class="custom-radio">
+					<input id="rb4" name="pay" type="radio">
+					<label for="rb4"><img src="images/knet-icon.png" alt=""> KNET</label>
+					</div>
+
+					<div class="custom-radio">
+					<input id="rb5" name="pay" type="radio">
+					<label for="rb5"><img src="images/visa-icon.png" alt=""> Credit Card</label>
+					</div>
+
+					<div class="custom-radio">
+					<input id="rb6" name="pay" type="radio">
+					<label for="rb6"><img src="images/cash-icon.png" alt=""> Cash</label>
+					</div>
+
+					</div>
+
+
+				</div>
+				</div>
+			</div>
+		</div>
+
+		<input type="submit" value="Place Order" class="sub_btn">
+
+	</div>
+
+
+
+	</section>
+	<!--inner area-->
+
+
+
+	<footer>
+	<!--<div class="footinn">
+		<div class="row">
+
+		<div class="col-md-2 col-sm-4 col-xs-4">
+		<h3>browse</h3>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About us</a></li>
+			<li><a href="#">Careers</a></li>
+			<li><a href="#">Media</a></li>
+			<li><a href="#">Cofe Blog</a></li>
+			<li><a href="#">Contact us</a></li>
+		</ul>
+		</div>
+
+		<div class="col-md-2 col-sm-4 col-xs-4">
+		<h3>ORDERS</h3>
+		<ul>
+			<li><a href="#">My Profile</a></li>
+			<li><a href="#">My Orders</a></li>
+			<li><a href="#">FAQ’s</a></li>
+			<li><a href="#">Policy</a></li>
+			<li><a href="#">Terms</a></li>
+		</ul>
+		</div>
+
+
+		<div class="col-md-2 col-sm-4 col-xs-4">
+		<h3>Cofe CLUB</h3>
+		<ul>
+			<li><a href="#">Gift Cards</a></li>
+			<li><a href="#">Offers</a></li>
+			<li><a href="#">Catering</a></li>
+		</ul>
+		</div>
+
+		<div class="col-md-3 col-sm-6 col-xs-6">
+		<h3>CONTACT</h3>
+		<ol>
+			<li>Call us: 2222 2222</li>
+			<li><a href="mailto:info@cofedistrict.com">info@cofedistrict.com</a> </li>
+		</ol>
+		</div>
+
+
+		<div class="col-md-3 col-sm-6 col-xs-6">
+		<div class="app-links">
+			<a href="#"><img src="images/app-store.png" alt="appstore"></a>
+			<a href="#"><img src="images/google-store.png" alt="googleplay"></a>
+		</div>
+		</div>
+
+		</div>
+	</div>-->
+
+
+
+	</footer>
+
+
+
+	</div>
+
+</article>
+
+<section class="bottom-bar">
+<article class="container">
+	<div class="row">
+		<div class="col-md-9">
+		<p>2017 © Copyright - Cofe District. All rights reserved.</p>
+		</div>
+
+		<div class="col-md-3">
+			<ul class="social-media">
+				<li><a href="#" class="icon1" title="facebook"></a></li>
+				<li><a href="#" class="icon2" title="twitter"></a></li>
+				<li><a href="#" class="icon3" title="Linked In"></a></li>
+				<li><a href="#" class="icon4" title="YouTube"></a></li>
+				<li><a href="#" class="icon5" title="Instagram"></a></li>
+			</ul>
+		</div>
+
+
+
+
+	</div>
+</article>
+</section>
+
+</section>
+
+<!--popup-->
+<div id="myModal_login" class="reveal-modal2">
+
+<div class="sign_in">
+<h3>Login</h3>
+
+
+  <div class="log_fill"><input type="text" class="text_log" placeholder="Email Address"></div>
+  <div class="log_fill"><input type="password" class="text_log" placeholder="Password"></div>
+  <div class="log_fill">
+  <aside class="rmr">
+  			<div class="custom-checkbox">
+			<input id="cb3" type="checkbox">
+			<label for="cb3">Remember Me</label>
+		    </div>
+
+
+  </aside>
+  <aside class="frgt"><a href="#">Forgot Password</a></aside>
+  </div>
+  <input type="submit" class="log_btn" value="Login">
+  <h5>Don't Have An Account? <a href="#">Create An Account</a> </h5>
+
+</div>
+			<a class="close-reveal-modal"></a>
+		</div>
+
+<!--popup-->
+
+<!--add addresss-->
+<div id="add-addresss" class="reveal-modal3">
+
+<div class="sign_in">
+<h3>Add Address</h3>
+
+ 									<div class="address_add">
+
+									<div id="map_view" class="map-view">
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3476.7687115945373!2d47.976053315356424!3d29.377060656743552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fcf84946e661e0f%3A0x53106fed6ec64d5!2sMawaqaa+-+National+Web+Solutions+Company!5e0!3m2!1sen!2skw!4v1497958863842" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+									</div>
+									<div id="address_view" class="address_view">
+										<p>You don't have any saved address, please add new address below.</p>
+										<form>
+											<div class="form-group">
+												<label>Contact Details</label>
+												<div class="row">
+													<div class="col-md-6">
+														<input type="text" class="" placeholder="Mobile Number">
+													</div>
+													<div class="col-md-6">
+														<input type="text" class="" placeholder="Landline Number">
+													</div>
+												</div>
+											</div>
+											<div class="form-group">
+												<label>Address Details</label>
+												<div class="row margin-bottom">
+													<div class="col-md-6">
+														<select>
+															<option>Select address</option>
+														</select>
+													</div>
+												</div>
+												<div class="row margin-bottom">
+													<div class="col-md-6">
+														<div class="address-radio">
+														  <label>
+															<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+															Apartment
+														  </label>
+														</div>
+														<div class="address-radio">
+														  <label>
+															<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+															House
+														  </label>
+														</div>
+														<div class="address-radio">
+														  <label>
+															<input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+															Office
+														  </label>
+														</div>
+													</div>
+													<div class="col-md-6">
+														<input type="text" class="" placeholder="Address Title">
+													</div>
+												</div>
+												<div class="row margin-bottom">
+													<div class="col-md-6">
+														<input type="text" class="" placeholder="Block">
+													</div>
+													<div class="col-md-6">
+														<input type="text" class="" placeholder="Street">
+													</div>
+												</div>
+												<div class="row margin-bottom">
+													<div class="col-md-6">
+														<input type="text" class="" placeholder="Avenue">
+													</div>
+													<div class="col-md-6">
+														<input type="text" class="" placeholder="Building">
+													</div>
+												</div>
+												<div class="row margin-bottom">
+													<div class="col-md-6">
+														<input type="text" class="" placeholder="Floor">
+													</div>
+													<div class="col-md-6">
+														<input type="text" class="" placeholder="Apartment No.">
+													</div>
+												</div>
+												<div class="row margin-bottom">
+													<div class="col-md-6">
+														<textarea placeholder="Additional Directions"></textarea>
+													</div>
+
+												</div>
+											</div>
+										</form>
+									</div>
+
+
+
+									<button class="view-address">View Address Fields</button>
+									<input type="submit" class="address-confirm" value="Confirm">
+
+
+									</div>
+
+
+
+
+</div>
+			<a class="close-reveal-modal"></a>
+		</div>
+
+
+<!--add addresss-->
+
+
+<!--shedule-->
+
+
+<div id="shedule-time" class="reveal-modal3">
+
+<div class="sign_in">
+<h3>Schedule Your Coffee</h3>
+
+
+<div class="popup-cal-icon">
+
+
+<div class="input-group date form_date col-md-12 clnrd" data-date="" data-date-format="dd MM yyyy" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd">
+		 	    <input class="text_box6" placeholder="Select Your Week" readonly type="text">
+		 	    <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span> </div>
+</div>
+
+    <div class="shedule-wrapper">
+	 <div class="table-responsive22">
+
+
+
+
+
+
+	 <table class="table">
+
+
+		 <tbody>
+		 	<tr>
+		 	  <td width="40%">
+	 	    	<div class="calender-date" >      Sunday 	  04 June 2017</div>
+		 	  </td>
+	 		  <td width="40%">
+
+
+                <div class="select-div-col">
+                 <select class="newstyle form-control">
+  <option value="time">Set Time</option>
+  <option value="time">7:00 am</option>
+  <option value="time">7:15 am</option>
+  <option value="time">7:30 am</option>
+  <option value="time">7:45 am</option>
+</select>
+                </div>
+
+		 		</td>
+	      <td width="20%" align="center" valign="middle"><label class="switch">
+		 		  <input type="checkbox" checked>
+		 		  <div class="slider round"></div>
+		 		  </label></td>
+
+	 		</tr>
+	 		<tr>
+		 	  <td width="40%">
+	 	    	<div class="calender-date" >      Monday 	  05 June 2017</div>
+		 	  </td>
+	 		  <td width="40%">
+
+
+                <div class="select-div-col">
+                 <select class="newstyle form-control">
+  <option value="time">Set Time</option>
+  <option value="time">7:00 am</option>
+  <option value="time">7:15 am</option>
+  <option value="time">7:30 am</option>
+  <option value="time">7:45 am</option>
+</select>
+                </div>
+
+		 		</td>
+	      <td width="20%" align="center" valign="middle"><label class="switch">
+		 		  <input type="checkbox" checked>
+		 		  <div class="slider round"></div>
+		 		  </label></td>
+
+	 		</tr>
+		 	<tr>
+		 	  <td width="40%">
+	 	    	<div class="calender-date" >      Tuesday   06 June 2017</div>
+		 	  </td>
+		 		<td width="40%">
+
+
+                <div class="select-div-col">
+                 <select class="newstyle form-control">
+  <option value="time">Set Time</option>
+  <option value="time">7:00 am</option>
+  <option value="time">7:15 am</option>
+  <option value="time">7:30 am</option>
+  <option value="time">7:45 am</option>
+</select>
+                </div>
+
+		 		</td>
+		 		<td width="20%" align="center" valign="middle"><label class="switch">
+		 		  <input type="checkbox" checked>
+		 		  <div class="slider round"></div>
+		 		  </label></td>
+
+	 		</tr>
+		 	<tr>
+		 	  <td width="40%">
+	 	    	<div class="calender-date" >     Wed 	  07 June 2017</div>
+		 	  </td>
+		 	  <td><div class="select-div-col">
+		 	    <select name="select2" class="newstyle form-control">
+		 	      <option value="time">Set Time</option>
+		 	      <option value="time">7:00 am</option>
+		 	      <option value="time">7:15 am</option>
+		 	      <option value="time">7:30 am</option>
+		 	      <option value="time">7:45 am</option>
+	 	        </select>
+		 	    </div></td>
+		 	  <td align="center" valign="middle"><label class="switch">
+		 	    <input type="checkbox" checked>
+		 	    <div class="slider round"></div>
+		 	    </label></td>
+	 	   </tr>
+		 	<tr>
+		 	  <td width="40%">
+	 	    	<div class="calender-date" >    Thrusday  08 June 2017</div>
+		 	  </td>
+		 	  <td><div class="select-div-col">
+		 	    <select name="select2" class="newstyle form-control">
+		 	      <option value="time">Set Time</option>
+		 	      <option value="time">7:00 am</option>
+		 	      <option value="time">7:15 am</option>
+		 	      <option value="time">7:30 am</option>
+		 	      <option value="time">7:45 am</option>
+	 	        </select>
+		 	    </div></td>
+		 	  <td align="center" valign="middle"><label class="switch">
+		 	    <input type="checkbox" checked>
+		 	    <div class="slider round"></div>
+		 	    </label></td>
+	 	   </tr>
+		 	<tr>
+		 	  <td width="40%">
+	 	    	<div class="calender-date" >Friday 	  09 June 2017</div>
+		 	  </td>
+		 	  <td><div class="select-div-col">
+		 	    <select name="select2" class="newstyle form-control">
+		 	      <option value="time">Set Time</option>
+		 	      <option value="time">7:00 am</option>
+		 	      <option value="time">7:15 am</option>
+		 	      <option value="time">7:30 am</option>
+		 	      <option value="time">7:45 am</option>
+	 	        </select>
+		 	    </div></td>
+		 	  <td align="center" valign="middle"><label class="switch">
+		 	    <input type="checkbox" checked>
+		 	    <div class="slider round"></div>
+		 	    </label></td>
+	 	   </tr>
+		 	<tr>
+		 	  <td width="40%">
+	 	    	<div class="calender-date" >Saturday  20 June 2017</div>
+		 	  </td>
+		 	  <td><div class="select-div-col">
+		 	    <select name="select2" class="newstyle form-control">
+		 	      <option value="time">Set Time</option>
+		 	      <option value="time">7:00 am</option>
+		 	      <option value="time">7:15 am</option>
+		 	      <option value="time">7:30 am</option>
+		 	      <option value="time">7:45 am</option>
+	 	        </select>
+		 	    </div></td>
+		 	  <td align="center" valign="middle"><label class="switch">
+		 	    <input type="checkbox" checked>
+		 	    <div class="slider round"></div>
+		 	    </label></td>
+	 	   </tr>
+
+
+	 	 </tbody>
+	 </table>
+
+
+
+
+
+
+
+
+
+
+
+
+	 	<input type="submit" class="log_btn" value="Schedule">
+
+
+
+	 </div>
+
+	 </div>
+
+
+
+</div>
+			<a class="close-reveal-modal"></a>
+		</div>
+
+<!--shedule-->
+
+
+
+
+
+
+
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/Selectyze.jquery.js"></script>
+<script type="text/javascript">
+		$(document).ready(function(){
+
+			$('.selectyze2').Selectyze({
+				theme : 'mac'
+			});
+
+
+		});
+</script>
+
+<script src="js/responsiveslides.min.js"></script>
+  <script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+
+      // Slideshow 1
+      $("#slider1").responsiveSlides({
+        auto: true,
+        pager: false,
+        nav: false,
+        speed: 1500,
+		speed:1500,
+		timeout:4E3,
+        namespace: "centered-btns"
+      });
+    });
+  </script>
+
+<script type="text/javascript" src="js/jquery.reveal.js"></script>
+
+<script>
+$(document).ready(function(){
+$('.carousel').carousel({
+    pause: "false"
+});
+});
+
+</script>
+
+<script type="text/javascript">
+            $(function () {
+                $('#datetimepicker4').datetimepicker();
+            });
+</script>
+
+<script type="text/javascript" src="js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
+<script type="text/javascript">
+    $('.form_datetime').datetimepicker({
+        //language:  'fr',
+        weekStart: 1,
+        todayBtn:  1,
+		autoclose: 1,
+		todayHighlight: 1,
+		startView: 2,
+		forceParse: 0,
+        showMeridian: 1
+    });
+	$('.form_date').datetimepicker({
+        language:  'en',
+        weekStart: 1,
+        todayBtn:  1,
+		autoclose: 1,
+		todayHighlight: 1,
+		startView: 2,
+		minView: 2,
+		forceParse: 0
+    });
+	$('.form_time').datetimepicker({
+        language:  'en',
+        weekStart: 1,
+        todayBtn:  1,
+		autoclose: 1,
+		todayHighlight: 1,
+		startView: 1,
+		minView: 0,
+		maxView: 1,
+		forceParse: 0
+    });
+</script>
+
+<script type="text/javascript" src="js/Selectyze.jquery.js"></script>
+<script type="text/javascript">
+		$(document).ready(function(){
+
+			$('.selectyze3').Selectyze({
+				theme : 'new'
+			});
+
+			$('.selectyze4').Selectyze({
+				theme : 'new'
+			});
+
+
+		});
+</script>
+
+<script>
+// $(function(){
+//  $('.inner-wrapper').css({"min-height": $(window).height() - 186});
+// });
+$('.inner-wrapper').css({"min-height": $(window).height() - 186});
+$(window).bind('resize', function(e){
+ $('.inner-wrapper').css({"min-height": $(window).height() - 186});
+});
+</script>
+<script>
+	function ButtonText() {
+    if ($("#map_view").is(":visible")) {
+        $("button").text("View Address Fields");
+    } else {
+        $("button").text("View Map");
+    }
+}
+
+ButtonText();
+$("button").click(function () {
+    $("#map_view").toggle();
+    $("#address_view").toggle();
+    ButtonText();
+});
+	</script>
+
+
+
+
+
+</body>
+</html>

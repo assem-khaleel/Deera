@@ -1,0 +1,11 @@
+*{color:red;}
+.logo{display:none;}
+.cart:before{
+    content:'fffffffff ';
+    display:block;
+    width:30px;
+    height: 40px;
+    background-color: red;
+    background-img:url(../01new-pin.png);
+}
+.secbox{float:right;}

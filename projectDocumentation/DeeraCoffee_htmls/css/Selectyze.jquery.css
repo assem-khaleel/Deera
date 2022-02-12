@@ -1,0 +1,142 @@
+/************************************************************************
+*************************************************************************
+@Name :       	Selectyze - jQuery Plugin CSS
+@Revison :    	1.0
+@Date : 		19/12/2011
+@Author:     	Mickael SURREL - ALPIXEL Agency - (www.myjqueryplugins.com - www.alpixel.fr) 
+@License :		 Open Source - MIT License : http://www.opensource.org/licenses/mit-license.php
+ 
+**************************************************************************
+*************************************************************************/
+
+/***************************/
+/** Common to every theme **/
+/***************************/
+.DivSelectyze {
+	position:relative;
+	width:auto;
+	float:left;
+}
+
+.DivSelectyze .selectyzeValue {
+	position:relative;
+	z-index:10;
+	display:block;
+	text-decoration:none;
+}
+
+.DivSelectyze ul {list-style:none;}
+.DivSelectyze .UlSelectize {
+	position:absolute;
+	z-index:9999;
+	display:none;
+}
+
+.DivSelectyze li a {
+	display:block;
+	text-decoration:none;
+}
+
+.optgroupTitle {
+	display:block;
+}
+/*******************************/
+/** END COMMON TO EVERY THEME **/
+/*******************************/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+
+
+/*----------------------------------
+ You can add your own theme below !!
+ To add your theme, be sure to have 5 CSS elements :
+ 
+ .your_theme .selectyzeValue {} 		-> Appearance of your select element
+ .your_theme .UlSelectize {} 			-> Appearance of the dropdown list
+ .your_theme li a {} 					-> Appearance of the items into the dropdown list
+ .your_theme li a:hover {} 				-> items on hover
+ .your_theme .optgroupTitle {} 			-> Appearance of the optgroup label !! only if you have <optgroup> element into your list 
+ 
+ 
+ that's all ! \o/
+----------------------------------*/
+
+
+	/*****************/
+	/** MAC THEME **/
+	/*****************/
+	.mac .selectyzeValue {
+		color:#000000;
+		width:676px;
+		height:74px;
+		background:url('../images/bg_mac.png') no-repeat;
+		padding:19px 0px 0px 27px;
+		font-family: Arial !important;
+		color:#000;
+		font-size:25px;
+		outline:none;
+	
+	}
+
+	.mac .UlSelectize {
+		top:73px;
+		left:0px;
+		width:100%;
+		border:8px solid;
+		border-color: rgba(255,255,255,0.4);
+	}
+
+	.mac li a {
+		font:13px/20px Arial;
+		background-color:transparent;
+		color:#000;
+		padding:10px 0px 10px 30px;
+		padding-left:20px;
+		color:#000;
+		font-size:20px;
+		background-color: #fff;
+		border-bottom:1px solid #eee;
+		
+		
+	}
+
+	.mac li a:hover {
+		color:#fff;
+		background-color:#c89969;
+
+	}
+	
+	.mac .optgroupTitle {
+		margin-top:15px;
+		font-size:13px;
+		padding-left:10px;
+		background-color:#fff;
+		color:#969696;
+		display:none;
+	}
+
+
+
+@media only screen and (max-width:767px){
+	.DivSelectyze{ width: 100%; margin-top: 10px; }
+	.mac .selectyzeValue{ width: 100%; height: 50px; background-color: #fff; background-image: url(../images/arrow-bottom.png); background-position: right 17px top 16px; background-repeat: no-repeat; font-size: 22px; padding-left: 15px; padding-top: 9px; outline: 7px solid; outline-color: rgba(255,255,255,0.4);}
+	.mac .UlSelectize{ top: 63px; border: none; width: 100%; background-color: #fff; outline: 7px solid; outline-color: rgba(255,255,255,0.4); }
+	.mac li a{ padding: 6px 0px 6px 18px; font-size: 16px; }
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+	
+	
+	

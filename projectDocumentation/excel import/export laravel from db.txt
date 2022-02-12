@@ -1,0 +1,61 @@
+Steps to export excel:
+
+
+- Composor.jason
+set code after (  "laravel/framework": "5.4.*") requred
+        "maatwebsite/excel": "~2.1.0",
+
+
+
+-open command file and type : composer update 
+
+- open app.php :
+
+ 'providers' => [
+.....
+  Maatwebsite\Excel\ExcelServiceProvider::class,
+
+
+  ....]
+
+
+
+  'aliasess'[
+.........
+'Excel'=> Maatwebsite\Excel\Facades\Excel::class,
+'Input' => Illuminate\Support\Facades\Input::class,
+
+..........
+  ]
+
+
+  -Create a controller  : 
+use App\User;
+use Illuminate\Http\Request;
+use Excel;
+  public function export(){
+
+	$export =User::select('id','name','email','created_at','updated_at')->get();
+	Excel::create('export data',function($excel) use($export){
+
+		$excel->sheet('Sheet1',function($sheet)use ($export){
+          $sheet->fromArray($export);
+		});
+	})->export('xlsx');
+
+}
+
+
+
+- Route file (web.php) :
+
+Route::get('/export','ExcelController@export');
+
+
+
+
+Source :https://www.youtube.com/watch?v=BEnWFSK2W7M
+
+
+
+
